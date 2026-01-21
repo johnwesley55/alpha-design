@@ -1,6 +1,8 @@
 import React from 'react'
 import Home from "../component/Home"
-
+import Works from "../component/Works"
+import About from '../component/About'
+import Skills from '../component/Skills'
 
 function HomePage() {
   return (
@@ -8,6 +10,9 @@ function HomePage() {
     <>
     <>
     <Home/>
+    <Works/>
+    <About/>
+    <Skills/>
 
     
     
