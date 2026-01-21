@@ -37,7 +37,7 @@ const works = [
 
 export default function SelectedWorks() {
   return (
-    <section className="bg-black text-white py-24 px-10">
+    <section id="works" className="bg-black text-white py-24 px-10">
       <div className="max-w-7xl mx-auto">
 
         {/* Heading */}

@@ -38,7 +38,7 @@ const tools = [
 
 export default function Skills() {
   return (
-    <section className="relative bg-black text-white py-40 overflow-hidden">
+    <section id="skills" className="relative bg-black text-white py-40 overflow-hidden">
 
       {/* Subtle background grid (barely visible) */}
       <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.025)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.025)_1px,transparent_1px)] bg-[size:80px_80px]" />

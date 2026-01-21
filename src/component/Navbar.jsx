@@ -10,22 +10,24 @@ export default function Navbar() {
         {/* Logo */}
         <div className="leading-none">
           <h1 className="text-lg font-semibold tracking-wide text-white">
-            A.M
+            JOHN
           </h1>
           <p className="text-[10px] tracking-[0.35em] text-gray-400 mt-1">
-            PORTFOLIO 2024
+            ALPHA DESIGN STUDIO
           </p>
         </div>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8 text-[13px] text-gray-300">
           <a href="#works" className="hover:text-white">Works</a>
+          <a href="#services" className="hover:text-white">Services</a>
           <a href="#about" className="hover:text-white">About</a>
+          <a href="#pricing" className="hover:text-white">Pricing</a>
           <a href="#skills" className="hover:text-white">Skills</a>
           <a href="#contact" className="hover:text-white">Contact</a>
 
           <button className="ml-3 px-4 py-1.5 rounded-full bg-gradient-to-r from-purple-500 to-fuchsia-500 text-white text-[13px] font-medium">
-            Hire Me
+            Contact
           </button>
         </div>
 
