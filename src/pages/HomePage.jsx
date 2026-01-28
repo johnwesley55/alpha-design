@@ -5,7 +5,7 @@ import About from '../component/About'
 import Skills from '../component/Skills'
 import Pricing from "../component/Pricing"
 import Contact from "../component/Contact"
-import Service from '../component/service'
+import Service from '../component/Service'
 
 function HomePage() {
   return (
