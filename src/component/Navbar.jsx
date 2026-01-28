@@ -21,8 +21,8 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-8 text-[13px] text-gray-300">
           <a href="#works" className="hover:text-white">Works</a>
           <a href="#services" className="hover:text-white">Services</a>
-          <a href="#about" className="hover:text-white">About</a>
           <a href="#pricing" className="hover:text-white">Pricing</a>
+          <a href="#about" className="hover:text-white">About</a>
           <a href="#skills" className="hover:text-white">Skills</a>
           <a href="#contact" className="hover:text-white">Contact</a>
 
