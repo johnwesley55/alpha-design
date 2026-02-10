@@ -103,7 +103,7 @@ export default function Hero() {
           transition={{ delay: 0.8, duration: 0.8 }}
           className="mt-6 text-gray-300 text-lg"
         >
-          Freelance Designer / UI UX / Developer
+          <h1>Freelance Designer / UI UX / Developer</h1>
         </motion.p>
 
         {/* DESCRIPTION */}
