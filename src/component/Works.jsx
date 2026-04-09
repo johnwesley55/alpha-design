@@ -4,34 +4,34 @@ import { motion } from "framer-motion";
 
 const works = [
   {
-    title: "Neon Dreams",
+    title: "Captain America",
     subtitle: "Futuristic visual identity",
-    image: "/images/i1.png",
+    image: "/images/ca1.jpg",
   },
   {
-    title: "Cyber Pulse",
+    title: "Dead Pool",
     subtitle: "Retro tech experience",
-    image: "/images/img2.png",
+    image: "/images/dp1.jpg",
   },
   {
-    title: "Aurora",
+    title: "Ed Sheeran",
     subtitle: "Gradient motion design",
-    image: "/images/img3.png",
+    image: "/images/ed1.png",
   },
   {
-    title: "Midnight Protocol",
+    title: "Iron Man",
     subtitle: "Developer focused system",
-    image: "/images/img4.png",
+    image: "/images/im1.jpg",
   },
   {
-    title: "Void",
+    title: "Peter Parker",
     subtitle: "Minimal abstract concept",
-    image: "/images/img5.png",
+    image: "/images/spd2.webp",
   },
   {
-    title: "Spectrum",
+    title: "Spider",
     subtitle: "Color driven interface",
-    image: "/images/img6.png",
+    image: "/images/spd1.jpg",
   },
 ];
 

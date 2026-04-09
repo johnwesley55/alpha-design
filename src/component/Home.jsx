@@ -83,19 +83,18 @@ export default function Hero() {
       {/* Hero Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-10 pt-24">
 
-        {/* NAME */}
-        <AnimatedText
-          text="ALPHAA"
-          className="text-[80px] md:text-[120px] font-extrabold leading-none"
-        />
+    {/* NAME */}
+<AnimatedText
+  text="ALPHA"
+  className="text-[80px] md:text-[120px] font-extrabold leading-[1.1]"
+/>
 
-        {/* BRAND / HIGHLIGHT */}
-        <AnimatedText
-          text="DESIGNSTUDIO"
-          gradient
-          className="text-[90px] md:text-[140px] font-extrabold leading-none"
-        />
-
+{/* BRAND */}
+<AnimatedText
+  text="DESIGNS 360"
+  gradient
+  className="text-[90px] md:text-[140px] font-extrabold leading-[1.1]"
+/>
         {/* ROLE */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -142,15 +141,7 @@ export default function Hero() {
         </motion.div>
       </div>
 
-      {/* Scroll Indicator */}
-      <motion.div
-        className="absolute bottom-10 right-20 text-gray-400 text-xs tracking-widest"
-        animate={{ y: [0, 12, 0] }}
-        transition={{ duration: 1.5, repeat: Infinity }}
-      >
-        SCROLL
-        <div className="w-[1px] h-12 bg-purple-500 mx-auto mt-2"></div>
-      </motion.div>
+      
 
     </section>
   );

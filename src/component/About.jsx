@@ -51,7 +51,7 @@ export default function About() {
             {/* STATS */}
             <div className="grid grid-cols-3 gap-6 pt-8">
               {[
-                { value: "8+", label: "Years Experience" },
+                { value: "3+", label: "Years Experience" },
                 { value: "150+", label: "Projects Done" },
                 { value: "50+", label: "Happy Clients" },
               ].map((item, i) => (

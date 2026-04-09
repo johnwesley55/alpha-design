@@ -13,7 +13,7 @@ export default function Navbar() {
             JOHN
           </h1>
           <p className="text-[10px] tracking-[0.35em] text-gray-400 mt-1">
-            ALPHA DESIGN STUDIO
+            ALPHA DESIGNS 360
           </p>
         </div>
 

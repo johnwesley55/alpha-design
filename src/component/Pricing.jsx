@@ -11,7 +11,7 @@ const plans = [
       "1 Design Concept",
       "2 Revision Rounds",
       "Source Files Included",
-      "5 Day Delivery",
+      
       "Email Support",
     ],
     button: "Get Started",
@@ -90,7 +90,7 @@ export default function Pricing() {
               transition={{ delay: i * 0.15, duration: 0.7 }}
               viewport={{ once: true }}
               whileHover={{ y: -10 }}
-              className={`relative rounded-3xl border backdrop-blur-xl p-10 pt-14
+              className={`relative rounded-3xl border backdrop-blur-xl p-10 pt-14 flex flex-col h-full
                 ${
                   plan.highlight
                     ? "border-purple-500 bg-gradient-to-br from-purple-500/20 to-black"
@@ -142,7 +142,8 @@ export default function Pricing() {
 
               {/* Button */}
               <button
-                className={`w-full py-4 rounded-xl font-semibold transition
+                
+  className={`w-full py-4 rounded-xl font-semibold transition mt-auto
                   ${
                     plan.highlight
                       ? "bg-purple-500 text-black hover:bg-purple-400"
@@ -159,7 +160,7 @@ export default function Pricing() {
         <div className="text-center mt-20 text-gray-400">
           Need a custom solution? Let's discuss your project requirements.
           <div className="mt-4">
-            <a href="#" className="text-purple-400 hover:text-purple-300">
+            <a href="" className="text-purple-400 hover:text-purple-300">
               Schedule a free consultation →
             </a>
           </div>
