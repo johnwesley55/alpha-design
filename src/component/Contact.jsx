@@ -126,8 +126,8 @@ export default function ContactCTA() {
           className="mt-28 flex justify-center gap-10"
         >
           {[
-            { icon: Instagram, link: "https://instagram.com" },
-            { icon: Linkedin, link: "https://linkedin.com" },
+            { icon: Instagram, link: "https://www.instagram.com/alphadesigns360.in?igsh=aXF5aWN1YXFpMngx&utm_source=qr" },
+            { icon: Linkedin, link: "https://www.linkedin.com/in/alphadesignstudio?utm_source=share_via&utm_content=profile&utm_medium=member_ios" },
             { icon: Twitter, link: "https://twitter.com" },
           ].map(({ icon: Icon, link }, i) => (
             <motion.a
