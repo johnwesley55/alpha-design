@@ -89,18 +89,7 @@ export default function ContactCTA() {
           viewport={{ once: true }}
           className="mt-20 flex flex-col sm:flex-row justify-center gap-8"
         >
-          <motion.a
-  whileHover={{ scale: 1.03 }}
-  whileTap={{ scale: 0.96 }}
-  href="thumbnails.alphadesigns360.com"
-  target="_blank"
-  className="inline-flex items-center gap-3 px-12 py-5 rounded-full
-  bg-gradient-to-r from-purple-500 to-fuchsia-500 text-black font-semibold text-lg
-  shadow-[0_0_30px_rgba(168,85,247,0.35)]"
->
-  View Thumbnail Work
-  <ArrowUpRight />
-</motion.a>
+      
           {/* Email */}
           <motion.a
             whileHover={{ scale: 1.04 }}
