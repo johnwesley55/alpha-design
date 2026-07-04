@@ -1,11 +1,11 @@
-import { motion } from "framer-motion";
+import { motion  } from "framer-motion";
 import { Check } from "lucide-react";
 
 const plans = [
   {
     name: "Starter",
     subtitle: "Perfect for small projects",
-    price: "1,500",
+    price: "20",
     desc: "Essential design services for startups and small businesses getting started.",
     features: [
       "1 Design Concept",
@@ -20,7 +20,7 @@ const plans = [
   {
     name: "Professional",
     subtitle: "Most popular choice",
-    price: "3,500",
+    price: "30",
     desc: "Comprehensive design package for growing brands that need impact.",
     features: [
       "3 Design Concepts",
@@ -36,7 +36,7 @@ const plans = [
   {
     name: "Enterprise",
     subtitle: "For established brands",
-    price: "7,500",
+    price: "80",
     desc: "Full-scale design partnership for enterprises requiring excellence.",
     features: [
       "5 Design Concepts",

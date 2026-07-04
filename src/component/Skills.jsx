@@ -31,9 +31,7 @@ const skills = [
 const tools = [
   { name: "Figma", icon: Figma },
   { name: "Photoshop", icon: Image },
-  { name: "Illustrator", icon: Pen },
-  { name: "After Effects", icon: Film },
-  { name: "Blender", icon: Box },
+
 ];
 
 export default function Skills() {

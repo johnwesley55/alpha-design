@@ -85,15 +85,15 @@ export default function Hero() {
 
     {/* NAME */}
 <AnimatedText
-  text="ALPHA"
+  text="Build Your Brand."
   className="text-[80px] md:text-[120px] font-extrabold leading-[1.1]"
 />
 
 {/* BRAND */}
 <AnimatedText
-  text="DESIGNS 360"
+  text="Grow Your Business"
   gradient
-  className="text-[90px] md:text-[140px] font-extrabold leading-[1.1]"
+  className="text-[90px] md:text-[100px] font-extrabold leading-[1.1]"
 />
         {/* ROLE */}
         <motion.p
@@ -102,7 +102,7 @@ export default function Hero() {
           transition={{ delay: 0.8, duration: 0.8 }}
           className="mt-6 text-gray-300 text-lg"
         >
-          <h1>Freelance Designer / UI UX / Developer</h1>
+          <h1>Website Development • Branding • UI/UX • Graphic Design • Digital Marketing</h1>
         </motion.p>
 
         {/* DESCRIPTION */}
@@ -112,8 +112,7 @@ export default function Hero() {
           transition={{ delay: 1, duration: 0.8 }}
           className="mt-6 max-w-xl text-gray-400 leading-relaxed"
         >
-          Crafting bold visual experiences that elevate brands and captivate audiences. Let's create something unforgettable.
-          Crafting bold visual experiences that elevate brands and captivate audiences. Let's create something unforgettable.
+          We create high-performance websites, professional branding, and creative digital experiences that help businesses attract more customers, build credibility, and grow online.
         </motion.p>
 
         {/* BUTTONS */}
@@ -128,7 +127,7 @@ export default function Hero() {
             whileTap={{ scale: 0.95 }}
             className="flex items-center gap-2 bg-purple-600 hover:bg-purple-700 transition px-7 py-3 rounded-full font-medium"
           >
-            View Works <ArrowRight size={18} />
+           View Portfolio <ArrowRight size={18} />
           </motion.button>
 
           <motion.button
@@ -136,7 +135,7 @@ export default function Hero() {
             whileTap={{ scale: 0.95 }}
             className="px-7 py-3 rounded-full border border-gray-600 hover:border-white transition font-medium"
           >
-            Get in Touch
+            Get Free Quote
           </motion.button>
         </motion.div>
       </div>

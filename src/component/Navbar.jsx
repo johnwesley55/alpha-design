@@ -10,10 +10,10 @@ export default function Navbar() {
         {/* Logo */}
         <div className="leading-none">
           <h1 className="text-lg font-semibold tracking-wide text-white">
-            JOHN
+    ALPHA DESIGNS 360
           </h1>
           <p className="text-[10px] tracking-[0.35em] text-gray-400 mt-1">
-            ALPHA DESIGNS 360
+           Creative Design & Development Agency
           </p>
         </div>
 
